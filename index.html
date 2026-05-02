@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Markdown App</title>
+</head>
+<body>
+
+<h1>Archivos Markdown</h1>
+
+<button onclick="cargarArchivos()">Listar archivos</button>
+<ul id="lista"></ul>
+
+<hr>
+
+<h2>Contenido</h2>
+<div id="contenido"></div>
+
+<hr>
+
+<h2>Crear archivo</h2>
+<input id="nombre" placeholder="Nombre archivo">
+<br>
+<textarea id="texto"></textarea>
+<br>
+<button onclick="crearArchivo()">Guardar</button>
+
+<script src="app.js"></script>
+
+</body>
+</html>
